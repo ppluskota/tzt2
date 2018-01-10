@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Project</title>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            window.prettyPrint() && prettyPrint();
+        });
+    </script>
+</head>
+<body>
+<form id="project" method="post" action="/projects/add">
+    <br> ID: <br>
+    <input readonly type="text" name="project_id" value="<%= (!!project._id) ? project._id : '' %>">
+    <br> Nazwa: <br>
+    <input type="text" name="project_nazwa" value="<%= (!!project.nazwa) ? project.nazwa : '' %>">
+    <br> Opis: <br>
+    <input type="text" name="project_opis" value="<%= (!!project.opis) ? project.opis : '' %>">
+    <br> Zleceniodawca: <br>
+    <input type="text" name="project_zleceniodawca" value="<%= (!!project.zleceniodawca) ? project.zleceniodawca : '' %>">
+    <br> Budzet <br>
+    <input type="text" name="project_budzet" value="<%= (!!project.budzet) ? project.budzet : '' %>">
+    <br> Data Utworzenia: <br>
+    <input type="text" name="project_data_utworzenia" placeholder="dd/mm/yyyy" value="<%= (!!project.data_utworzenia) ? project.data_utworzenia : '' %>">
+    <br> Deadline: <br>
+    <input type="text" name="project_deadline" placeholder="dd/mm/yyyy" value="<%= (!!project.deadline) ? project.deadline : '' %>">
+    <br> Platforma: <br>
+    <select name="project_platformy">
+		    <option value="<%= (!!project.platformy) ? ["iOS"] : [] %>">iOS</option>
+		    <option value="<%= (!!project.platformy) ? ["Android"] : [] %>">Android</option>
+        <option value="<%= (!!project.platformy) ? ["iOS", "Android"] : [] %>">iOS oraz Android</option>
+	 </select>
+   <br> Procent ukonczenia: <br>
+   <select name="project_poziom_ukonczenia">
+      <option value="<%= (!!project.procent_ukonczenia) ? 0 : 0 %>">0</option>
+      <option value="<%= (!!project.procent_ukonczenia) ? 25 : 0 %>">25</option>
+      <option value="<%= (!!project.procent_ukonczenia) ? 50 : 0 %>">50</option>
+      <option value="<%= (!!project.procent_ukonczenia) ? 100 : 0 %>">100</option>
+    </select>
+    <br> Czy ukonczono: <br>
+    <select name="project_ukonczono">
+       <option value="<%= (!!project.zakonczony) ? false : false  %>">FALSE</option>
+       <option value="<%=(!!project.zakonczony) ? true : false  %>">TRUE</option>
+     </select>
+    <br><input type="submit" value="Save">
+</form>
+</body>
+</html>

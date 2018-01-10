@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>About Edit</title>
+ <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form method="post" action="/about/change">
+ Nazwa aplikacji: <input type="text" name="nazwa_aplikacji" value="<%= nazwa_aplikacji %>">
+ Opis: <input type="text" name="opis_aplikacji" value="<%= opis_aplikacji %>">
+ Autor: <input type="text" name="autor_aplikacji" value="<%= autor_aplikacji %>">
+ Wersja: <input type="text" name="wersja_aplikacji" value="<%= wersja_aplikacji %>"><br><br>
+
+ <input type="submit" value="Zapisz zmiany">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects List</title>
+</head>
+<body>
+    <table id="table">
+        <thead>
+        <tr>
+        <b>Name</b>
+        </tr>
+        </thead>
+        <tbody>
+        <% items.forEach(function(item) { %>
+        <tr>
+            <td data-title="Title"><%= item.nazwa %></td>
+            <td data-title="Description"> <%= item.opis %></td>
+            <td><a href="/projects/<%= item._id %>/edit" type="button"> Edit </a></td>
+            <td><a href="/projects/<%= item._id %>/remove" type="button"> Remove </a></td>
+        </tr>
+        <% }); %>
+        </tbody>
+    </table>
+    <a href="/projects/add">Add</a><br><br>
+    <a href="/">Home</a>
+</body>

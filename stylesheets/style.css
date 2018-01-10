@@ -1,0 +1,176 @@
+body {
+	background: #fff;
+	font-family: verdana, helvetica, arial, sans-serif;
+	margin: 0 20px 0 20px;
+	color: #333333;
+}
+
+#container {
+background: url(header.jpg) no-repeat top left;
+position: relative;
+margin: 0 auto -1px auto;
+padding-top: 50px;
+width: 680px;
+}
+
+#pageHeader {
+	text-align: right;
+	padding-right: 0px;
+	color: #AADA50;
+}
+#pageHeader h1 {
+	width: auto;
+	font-size: x-large;
+}
+#pageHeader h2 {
+	width: auto;
+	font-size: large;
+}
+
+#preamble {
+margin: 140px 0 0 220px;
+width: auto;
+}
+
+#explanation, #participation, #benefits, #requirements {
+margin: 25px 0 0 220px;
+width: auto;
+}
+
+#footer {
+margin: 0 0 5px 0;
+padding: 10px 0 0 0;
+width: 100%;
+text-align: center;
+}
+
+#linkList {
+position: absolute;
+width: 150px;
+top: 350px;
+left: 50px;
+}
+
+p {
+font-size: 12px;
+}
+
+#preamble p.p1, #supportingText p.p1 {
+margin-top: 10px;
+}
+
+#preamble p, #supportingText p {
+line-height: 18px;
+}
+
+#quickSummary p.p2 {
+font-size: 9px;
+color: #999;
+}
+
+#footer {
+font-size: 9px;
+}
+
+#linkList ul {
+font-size: 10px;
+list-style:none;
+margin: 5px 0 0 0;
+padding: 0 0 0 0;
+}
+
+#linkList ul li {
+margin: 0;
+padding: 0 0 0 17px;
+line-height: 14px;
+color: #ccc;
+}
+
+#linkList #lselect li {
+font-size: 20px;
+}
+
+#linkList #lselect a:link, #linkList #lselect a:visited { display: block; }
+#linkList #lselect a.c:link, #linkList #lselect a.c:visited { display:inline; }
+
+#larchives li, #lresources li { text-transform: lowercase; }
+
+a, a:link, a:visited {
+color: #999;
+}
+
+a:hover {
+color: #333;
+}
+
+#linkList a, #linkList a:link, #linkList a:visited {
+color: #666;
+text-decoration: none;
+}
+
+#linkList a:hover {
+text-decoration: underline;
+color: #333;
+}
+
+#linkList a.c, #linkList a.c:link, #linkList a.c:visited {
+color: #999;
+text-decoration: none;
+}
+
+#linkList a.c:hover {
+text-decoration: underline;
+color: #333;
+}
+
+#linkList #lselect a {
+font-size: 10px;
+}
+
+#linkList #lselect a.c {
+font-size: 9px;
+text-transform: lowercase;
+}
+
+#footer a, #footer a:link, #footer a:visited {
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+
+h3 { margin-bottom: 0px; }
+
+h3 span { }
+
+#supportingText h3 {
+width: auto;
+height: 15px;
+}
+
+#linkList h3 {
+width: 150px;
+height: 20px;
+margin-top: 20px;
+}
+
+#preamble h3 {
+width: auto;
+height: 26px;
+}
+
+#explanation h3 {
+}
+
+#participation h3 {
+}
+
+#benefits h3 {
+}
+
+#lselect h3 {
+margin-top: 10px;
+}
