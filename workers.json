@@ -1,0 +1,638 @@
+[
+  {
+    "_id": 1,
+    "imie": "Adam",
+    "nazwisko": "Pietrzak",
+    "stanowisko": "Junior iOS Developer",
+    "adres": "Krzepice Andersa 10",
+    "poczta": "42-160 Krzepice",
+    "telefon": "1234567890",
+    "wiek": 25,
+    "placa": 6000,
+    "zatrudniony": true,
+    "data_zatrudnienia": "10/12/2000",
+    "pesel": "12345678900",
+    "email": "pietrucha02@gmail.com",
+    "nr_konta": "12 3456 7890 1234 6789 1234 4532",
+    "nr_ubezpieczenia": "HA20937",
+    "kraj": "Polska",
+    "technologie": [
+      {
+        "nazwa": "Swift",
+        "poziom_zaawansowania": "ekspert"
+      },
+      {
+        "nazwa": "Postgre SQL",
+        "poziom_zaawanasowania": "poczatkujacy"
+      },
+      {
+        "nazwa": "Objective-c",
+        "poziom_zaawansowania": "poczatkujacy"
+      }
+    ],
+    "projekty": [
+      {
+        "_id": 2,
+        "data_przystapienia": "10/11/2001",
+        "zadania": [
+          {
+            "opis": "Logowanie przez FB",
+            "ukonczone": true
+          },
+          {
+            "opis": "Obsluga mapy",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 7,
+        "data_przystapienia": "02/01/2002",
+        "zadania": [
+          {
+            "opis": "Oblusga karty platniczej",
+            "ukonczone": true
+          }
+        ]
+      }
+    ],
+    "uwagi": [
+      {
+        "index": 1,
+        "typ": "nagana",
+        "data": "11/12/2000",
+        "opis": "Spoznienie do pracy"
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "imie": "Singjong",
+    "nazwisko": "Gurtaphallan",
+    "stanowisko": "Senior UI Designer",
+    "adres": "Chile, Kathmandu 24",
+    "poczta": "22-22323 Santiago",
+    "telefon": "98765443",
+    "wiek": 35,
+    "placa": 10000,
+    "zatrudniony": true,
+    "data_zatrudnienia": "10/12/1990",
+    "pesel": "98765443321",
+    "email": "j.curtlapalli@gmail.com",
+    "nr_konta": "22 3344 2211 5566 7788 9900 5243",
+    "nr_ubezpieczenia": "HC20937",
+    "kraj": "Chile",
+    "technologie": [
+      {
+        "nazwa": "java",
+        "poziom_zaawansowania": "zaawansowany"
+      }
+    ],
+    "projekty": [
+      {
+        "_id": 2,
+        "data_przystapienia": "10/10/2001",
+        "zadania": [
+          {
+            "opis": "Projekt UI",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 8,
+        "data_przystapienia": "02/11/2011",
+        "zadania": [
+          {
+            "opis": "Projekt UI",
+            "ukonczone": true
+          }
+        ]
+      }
+    ],
+    "uwagi": [
+      {
+        "index": 1,
+        "typ": "pochwala",
+        "data": "11/12/2000",
+        "opis": "Nadgodziny"
+      },
+      {
+        "index": 2,
+        "typ": "nagana",
+        "data": "11/12/2001",
+        "opis": "Romans w pracy"
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "imie": "Makumba",
+    "nazwisko": "Hulalala",
+    "stanowisko": "Senior iOS Developer",
+    "adres": "Montreal, This Street 4",
+    "poczta": "11-1234 London",
+    "telefon": "1234124",
+    "wiek": 44,
+    "placa": 9000,
+    "zatrudniony": true,
+    "data_zatrudnienia": "11/12/1991",
+    "pesel": "12453253252",
+    "email": "awsme@wp.pl",
+    "nr_konta": "22 2345 1234 1400 0000 0000 1276",
+    "nr_ubezpieczenia": "HA20937",
+    "kraj": "RPA",
+    "technologie": [
+      {
+        "nazwa": "Objective-c",
+        "poziom_zaawansowania": "ekspert"
+      }
+    ],
+    "projekty": [
+      {
+        "_id": 6,
+        "data_przystapienia": "10/11/2010",
+        "zadania": [
+          {
+            "opis": "Wsparcie dla iPada",
+            "ukonczone": true
+          },
+          {
+            "opis": "Zabezpiczenia",
+            "ukonczone": false
+          },
+          {
+            "opis": "Odswiezanie tokena",
+            "ukonczone": false
+          }
+        ]
+      },
+      {
+        "_id": 1,
+        "data_przystapienia": "10/10/2001",
+        "zadania": [
+          {
+            "opis": "Znaczniki na mapie",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 5,
+        "data_przystapienia": "02/11/2001",
+        "zadania": [
+          {
+            "opis": "Responsywne UI",
+            "ukonczone": true
+          },
+          {
+            "opis": "Reklamy",
+            "ukonczone": true
+          }
+        ]
+      }
+    ],
+    "uwagi": []
+  },
+  {
+    "_id": 4,
+    "imie": "Torkill",
+    "nazwisko": "Malaszewski",
+    "stanowisko": "Chief of user stories department",
+    "adres": "Krakow, Warszawska 14",
+    "poczta": "12-3030 Krakow",
+    "telefon": "24323513",
+    "wiek": 52,
+    "placa": 9600,
+    "zatrudniony": true,
+    "data_zatrudnienia": "04/02/1994",
+    "pesel": "12345709",
+    "email": "tmalaszewski@onet.pl",
+    "nr_konta": "22 1234 4321 0000 7788 2122 1211",
+    "nr_ubezpieczenia": "HG20935",
+    "kraj": "Polska",
+    "technologie": [],
+    "projekty": [
+      {
+        "_id": 6,
+        "data_przystapienia": "10/11/2010",
+        "zadania": [
+          {
+            "opis": "User stories",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 7,
+        "data_przystapienia": "01/08/2001",
+        "zadania": [
+          {
+            "opis": "User stories",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 8,
+        "data_przystapienia": "02/11/2010",
+        "zadania": [
+          {
+            "opis": "User stories",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 2,
+        "data_przystapienia": "10/10/2001",
+        "zadania": [
+          {
+            "opis": "User stories",
+            "ukonczone": true
+          }
+        ]
+      }
+    ],
+    "uwagi": [
+      {
+        "index": 1,
+        "typ": "nagana",
+        "data": "11/12/2002",
+        "opis": "Spozniony projekt"
+      },
+      {
+        "index": 2,
+        "typ": "nagana",
+        "data": "05/11/2003",
+        "opis": "Przyszedl pijany do pracy"
+      },
+      {
+        "index": 3,
+        "typ": "nagana",
+        "data": "12/02/2003",
+        "opis": "Nie przyniosl cukierkow na urodziny"
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "imie": "Paolo",
+    "nazwisko": "Gravani",
+    "stanowisko": "Junios Android Developer",
+    "adres": "Szwajcaria, Polona 5",
+    "poczta": "11-3434 Britain",
+    "telefon": "21241241",
+    "wiek": 21,
+    "placa": 3000,
+    "zatrudniony": false,
+    "data_zatrudnienia": "10/12/2000",
+    "pesel": "123456789",
+    "email": "gimmieMoney@money.com",
+    "nr_konta": "22 1111 2222 3333 4444 9999 8888",
+    "nr_ubezpieczenia": "HB20952",
+    "kraj": "Szwajcaria",
+    "technologie": [
+      {
+        "nazwa": "java",
+        "poziom_zaawansowania": "podstawowy"
+      }
+    ],
+    "projekty": [],
+    "uwagi": [
+      {
+        "index": 1,
+        "typ": "pochwala",
+        "data": "11/12/2000",
+        "opis": "Nie chce podwyzki"
+      },
+      {
+        "index": 2,
+        "typ": "nagana",
+        "data": "12/12/2000",
+        "opis": "Chce podwyzke"
+      }
+    ]
+  },
+  {
+    "_id": 6,
+    "imie": "Marek",
+    "nazwisko": "Markowski",
+    "stanowisko": "Senior iOS Developer",
+    "adres": "Krzepice, Szkolna 5",
+    "poczta": "42-160 Krzepice",
+    "telefon": "21421412",
+    "wiek": 33,
+    "placa": 11000,
+    "zatrudniony": true,
+    "data_zatrudnienia": "05/05/2010",
+    "pesel": "1234567098",
+    "email": "markoBoss@gmail.com",
+    "nr_konta": "11 1111 4444 5555 6666 3334 4443",
+    "nr_ubezpieczenia": "HB21137",
+    "kraj": "Polska",
+    "technologie": [
+      {
+        "nazwa": "Swift",
+        "poziom_zaawansowania": "ekspert"
+      },
+      {
+        "nazwa": "Objective-c",
+        "poziom_zaawansowania": "ekspert"
+      },
+      {
+        "nazwa": "Kotlin",
+        "poziom_zaawansowania": "zaawansowany"
+      }
+    ],
+    "projekty": [
+      {
+        "_id": 4,
+        "data_przystapienia": "12/10/2001",
+        "zadania": [
+          {
+            "opis": "Integracja frameworku Fabric oraz Crashlytics",
+            "ukonczone": true
+          },
+          {
+            "opis": "Blokada stron HTTP",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 5,
+        "data_przystapienia": "01/12/2001",
+        "zadania": [
+          {
+            "opis": "Rozszerzona rzeczywistosc",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 20,
+        "data_przystapienia": "01/01/2011",
+        "zadania": [
+          {
+            "opis": "Integracja z Unity",
+            "ukonczone": true
+          }
+        ]
+      }
+    ],
+    "uwagi": [
+      {
+        "index": 1,
+        "typ": "nagana",
+        "data": "11/12/2010",
+        "opis": "Nie wyrabia sie z terminami"
+      }
+    ]
+  },
+  {
+    "_id": 7,
+    "imie": "Marcin",
+    "nazwisko": "Juryl",
+    "stanowisko": "Junior iOS Developer",
+    "adres": "Katowice, Warszawska 12",
+    "poczta": "42-220 Katowice",
+    "telefon": "112312312",
+    "wiek": 19,
+    "placa": 3000,
+    "zatrudniony": true,
+    "data_zatrudnienia": "01/05/2010",
+    "pesel": "0394756301",
+    "email": "juryl.gosc@gmail.com",
+    "nr_konta": "11 2222 3333 4444 6666 3334 4443",
+    "nr_ubezpieczenia": "HB41137",
+    "kraj": "Polska",
+    "technologie": [
+      {
+        "nazwa": "Swift",
+        "poziom_zaawansowania": "podstawowy"
+      }
+    ],
+    "projekty": [
+      {
+        "_id": 9,
+        "data_przystapienia": "04/02/2011",
+        "zadania": [
+          {
+            "opis": "Sztuczna inteligencja",
+            "ukonczone": true
+          },
+          {
+            "opis": "Banery z reklamami",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 11,
+        "data_przystapienia": "04/04/2004",
+        "zadania": [
+          {
+            "opis": "Rozszerzona rzeczywistosc",
+            "ukonczone": false
+          },
+          {
+            "opis": "Animacja menu",
+            "ukonczone": true
+          },
+          {
+            "opis": "Autokorekta wprowadzanego tekstu",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 14,
+        "data_przystapienia": "01/08/2001",
+        "zadania": [
+          {
+            "opis": "System powidomien",
+            "ukonczone": false
+          },
+          {
+            "opis": "System banowania",
+            "ukonczone": false
+          },
+          {
+            "opis": "Implementacja UI",
+            "ukonczone": false
+          },
+          {
+            "opis": "Responsywne avatary",
+            "ukonczone": true
+          }
+        ]
+      }
+    ],
+    "uwagi": []
+  },
+  {
+    "_id": 8,
+    "imie": "Jan",
+    "nazwisko": "Koralski",
+    "stanowisko": "Boss",
+    "adres": "Krzepice, Rolna 1",
+    "poczta": "42-160 Krzepice",
+    "telefon": "12343211",
+    "wiek": 52,
+    "placa": 20000,
+    "zatrudniony": true,
+    "data_zatrudnienia": "01/01/1990",
+    "pesel": "6007765241",
+    "email": "janCompany@gmail.com",
+    "nr_konta": "33 3333 5555 7676 8787 9898 0909",
+    "nr_ubezpieczenia": "HH11137",
+    "kraj": "Polska",
+    "technologie": [],
+    "projekty": [],
+    "uwagi": [
+      {
+        "index": 1,
+        "typ": "pochwala",
+        "data": "01/01/1991",
+        "opis": "Najlepszy szef na swiecie"
+      },
+      {
+        "index": 2,
+        "typ": "pochwala",
+        "data": "01/01/1992",
+        "opis": "Najlepszy szef w drodze mlecznej"
+      },
+      {
+        "index": 3,
+        "typ": "pochwala",
+        "data": "01/01/1993",
+        "opis": "Najlepszy szef w wszechswiecie"
+      },
+      {
+        "index": 4,
+        "typ": "pochwala",
+        "data": "01/01/1994",
+        "opis": "Najlepszy szef we wszystkich wymiarach"
+      }
+    ]
+  },
+  {
+    "_id": 9,
+    "imie": "Piotr",
+    "nazwisko": "Rurkowski",
+    "stanowisko": "Senior Android Developer",
+    "adres": "Dankowice, 12",
+    "poczta": "42-160 Krzepice",
+    "telefon": "995043021",
+    "wiek": 40,
+    "placa": 9500,
+    "zatrudniony": false,
+    "data_zatrudnienia": "05/05/2002",
+    "pesel": "98574321094",
+    "email": "rurka@o2.pl",
+    "nr_konta": "99 8888 7777 5555 6666 3334 4443",
+    "nr_ubezpieczenia": "HB121137",
+    "kraj": "Polska",
+    "technologie": [
+      {
+        "nazwa": "Java",
+        "poziom_zaawansowania": "ekspert"
+      },
+      {
+        "nazwa": "Kotlin",
+        "poziom_zaawansowania": "zaawansowany"
+      }
+    ],
+    "projekty": [
+      {
+        "_id": 12,
+        "data_przystapienia": "02/10/2011",
+        "zadania": [
+          {
+            "opis": "Dynamiczne menu do wyboru potraw",
+            "ukonczone": true
+          },
+          {
+            "opis": "Rozszerzona rzeczywistosc",
+            "ukonczone": true
+          },
+          {
+            "opis": "Responsywne UI",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 16,
+        "data_przystapienia": "12/11/2011",
+        "zadania": [
+          {
+            "opis": "Tutorial",
+            "ukonczone": true
+          }
+        ]
+      },
+      {
+        "_id": 18,
+        "data_przystapienia": "04/04/2012",
+        "zadania": [
+          {
+            "opis": "Nowe menu",
+            "ukonczone": true
+          }
+        ]
+      }
+    ],
+    "uwagi": [
+      {
+        "index": 1,
+        "typ": "pochwala",
+        "data": "01/12/2008",
+        "opis": "Pracuje dwa razy wydajniej niz inni"
+      },
+      {
+        "index": 2,
+        "typ": "nagana",
+        "data": "11/02/2009",
+        "opis": "Zle traktuje innych pracownikow w zespole"
+      },
+      {
+        "index": 3,
+        "typ": "nagana",
+        "data": "01/07/2010",
+        "opis": "Utrata klienta"
+      }
+    ]
+  },
+  {
+    "_id": 10,
+    "imie": "Jurek",
+    "nazwisko": "Kurek",
+    "stanowisko": "Trainee",
+    "adres": "Klobuck, Frajerska 2",
+    "poczta": "42-180 Klobuck",
+    "telefon": "490392711",
+    "wiek": 18,
+    "placa": 1200,
+    "zatrudniony": true,
+    "data_zatrudnienia": "02/01/2018",
+    "pesel": "84753019208",
+    "email": "mlody@gmail.com",
+    "nr_konta": "11 1111 4444 5555 6666 3334 4443",
+    "nr_ubezpieczenia": "HB21137",
+    "kraj": "Polska",
+    "technologie": [
+      {
+        "nazwa": "Delphi",
+        "poziom_zaawansowania": "podstawowy"
+      },
+      {
+        "nazwa": "Python",
+        "poziom_zaawansowania": "podstawowy"
+      }
+    ],
+    "projekty": [],
+    "uwagi": []
+  }
+]
